@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onBeforeMount, ref } from 'vue'
 import { useSearchStore } from '@/stores/search'
-import { formatDate, formatString, generateVsString, getTimeAgo } from '@/utils/index'
+import { formatDate, formatString, getTimeAgo } from '@/utils/index'
 
 const store = useSearchStore()
 const router = useRouter()

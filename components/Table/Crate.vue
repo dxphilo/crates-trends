@@ -14,7 +14,6 @@ const crateInfo = ref()
 
 onBeforeMount(() => {
   crateInfo.value = store.getCrateInfo(props.crate as string)
-  console.log(crateInfo.value)
 })
 </script>
 

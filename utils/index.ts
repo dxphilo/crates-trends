@@ -1,5 +1,5 @@
 import dayjs from 'dayjs'
-import type { DownloadData, FilteredDownloads } from '@/types/index'
+import type { DownloadData } from '@/types/index'
 
 export function formatString(input: number): string {
   const reversedString = input
