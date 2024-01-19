@@ -57,9 +57,7 @@ function removeCrate(index: number) {
 
   const newRoute = cratesArray.length === 0 ? '/' : generateVsString(cratesArray)
 
-  router.push(newRoute).then(() => {
-    window.location.reload()
-  })
+  router.push(newRoute)
 }
 
 function getBorderColor(index: number) {

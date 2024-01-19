@@ -19,9 +19,7 @@ onBeforeMount(store.mostDownloadedCrates)
 // methods
 
 function handleNameSubmit(crate_name: string) {
-  router.push(`/${crate_name}`).then(() => {
-    window.location.reload()
-  })
+  router.push(`/${crate_name}`)
 }
 </script>
 

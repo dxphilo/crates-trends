@@ -1,4 +1,3 @@
-<!-- eslint-disable no-new -->
 <script setup lang="ts">
 import Chart from 'chart.js/auto'
 import { defineProps, onMounted } from 'vue'
